@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout 3</title>
+    <style>
+        .wrapper {
+            width: 989px;
+            margin: 0px auto;
+            padding: 0px;
+        }
+
+        .header {
+            height: 50px;
+            width: 100%;
+            border: 1px solid #000;
+            text-align: center;
+            background-color: rgb(255 229 153);
+        }
+
+        .menu {
+            width: 100%;
+            border: 1px solid #000;
+            border-top: none;
+            text-align: center;
+            background-color: rgb(255 229 153);
+        }
+
+        .content {
+            height: 300px;
+            width: 100%;
+            display: flex;
+            border-left: 1px solid #000;
+            border-right: 1px solid #000;
+            background-color: rgb(255 229 153);
+        }
+
+        .nav {
+            width: 30%;
+            float: left;
+        }
+
+        .transparent {
+            width: 60%;
+            float: left;
+            border-left: 1px solid #000;
+            border-right: 1px solid #000;
+        }
+
+        .section {
+            width: 30%;
+            float: right;
+        }
+
+        .footer {
+            height: 50px;
+            width: 100%;
+            text-align: center;
+            border: 1px solid #000;
+            background-color: rgb(255 229 153);
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">&ltheader&gt</div>
+
+        <div class="menu">&ltmenu&gt</div>
+        
+        <div class="content">
+            <div class="nav">&ltnav&gt</div>
+
+            <div class="transparent"></div>
+
+            <div class="section">&ltsection&gt</div>
+        </div>
+        
+        <div class="footer">&ltfooter&gt</div>
+    </div>
+</body>
+</html>
