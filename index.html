@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0 auto;
+            padding: 0;
+        }
+        
+        .wrapper {
+            height: 800px;
+            width: 1089px;
+            background-color: antiquewhite;
+        }
+        
+        header {
+            position: relative;
+        }
+        
+        header h1 {
+            position: absolute;
+            top: 30px;
+            left: 220px;
+            color: #fff;
+        }
+        
+        header h2 {
+            position: absolute;
+            top: 90px;
+            left: 350px;
+            color: blue;
+            text-shadow: chartreuse -10px 5px 3px;
+        }
+        
+        nav {
+            position: relative;
+        }
+        
+        .menu li {
+            position: absolute;
+            height: 50px;
+            width: 150px;
+            background-color: cyan;
+            list-style-type: none;
+            border: 2px solid royalblue;
+            border-radius: 10px 0 10px 0;
+            text-align: center;
+        }
+        
+        .menu li:nth-child(5) {
+            top: 30px;
+            right: 50px;
+        }
+        
+        .menu li:nth-child(4) {
+            top: 30px;
+            right: 210px;
+        }
+        
+        .menu li:nth-child(3) {
+            top: 30px;
+            right: 370px;
+        }
+        
+        .menu li:nth-child(2) {
+            top: 30px;
+            right: 530px;
+        }
+        
+        .menu li:nth-child(1) {
+            top: 30px;
+            right: 690px;
+        }
+        
+        .menu li:hover {
+            background-color: salmon;
+        }
+        
+        .menu li a {
+            text-decoration: none;
+            /* margin-left: 20px; */
+        }
+        
+        li a {
+            font-weight: bold;
+            color: slateblue;
+        }
+        
+        li:hover a {
+            color: rgb(235, 36, 129);
+        }
+        
+        form #txtEmail {
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="./img/pngtree-happy-halloween-header-banner-background-picture-image_1153013.jpg" alt="" height="250" width="1089">
+            <h1>TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP TP.HCM</h1>
+            <h2>KHOA CÔNG NGHỆ THÔNG TIN</h2>
+        </header>
+
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="">ITEM1</a>
+                </li>
+                <li>
+                    <a href="">ITEM2</a>
+                </li>
+                <li>
+                    <a href="">ITEM3</a>
+                </li>
+                <li>
+                    <a href="">ITEM4</a>
+                </li>
+                <li>
+                    <a href="">ITEM5</a>
+                    <form action="" method="POST">
+                        <input type="email" name="txtEmail" id="txtEmail">
+                        <button type="submit">GO</button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</body>
+
+</html>
